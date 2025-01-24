@@ -1,6 +1,4 @@
 from abc import ABC, abstractmethod
-
-# Abstract Base Class for the ETL Process
 class ETLProcess(ABC):
     @abstractmethod
     def extract(self):
